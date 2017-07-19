@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "pos": {
+        "x": -50,
+        "y": -50,
+        "z": 0
+      },
+      "angle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "id": 0
+    },
+    {
+      "pos": {
+        "x": 50,
+        "y": -50,
+        "z": 0
+      },
+      "angle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "id": 1
+    },
+    {
+      "pos": {
+        "x": 50,
+        "y": 50,
+        "z": 0
+      },
+      "angle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "id": 2
+    },
+    {
+      "pos": {
+        "x": -50,
+        "y": 50,
+        "z": 0
+      },
+      "angle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "id": 3
+    }
+  ],
+  "pos": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "angle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "nom": "test0",
+  "formes": [
+    {
+      "diametre": 50,
+      "idNoeud": 0,
+      "id": 1,
+      "type": "cercle",
+      "dessins": []
+    },
+    {
+      "diametre": 50,
+      "idNoeud": 1,
+      "id": 2,
+      "type": "cercle",
+      "dessins": []
+    },
+    {
+      "cercles": [
+        1,
+        2
+      ],
+      "id": 3,
+      "type": "convexe",
+      "dessins": []
+    },
+    {
+      "diametre": 50,
+      "idNoeud": 2,
+      "id": 4,
+      "type": "cercle",
+      "dessins": []
+    },
+    {
+      "cercles": [
+        2,
+        4
+      ],
+      "id": 5,
+      "type": "convexe",
+      "dessins": []
+    },
+    {
+      "diametre": 50,
+      "idNoeud": 3,
+      "id": 6,
+      "type": "cercle",
+      "dessins": []
+    },
+    {
+      "cercles": [
+        4,
+        6
+      ],
+      "id": 7,
+      "type": "convexe",
+      "dessins": []
+    },
+    {
+      "cercles": [
+        6,
+        1
+      ],
+      "id": 8,
+      "type": "convexe",
+      "dessins": []
+    },
+    {
+      "cercles": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "id": 9,
+      "type": "plan",
+      "dessins": [{
+        "coordonnees": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0
+        },
+        "lienImg": "dessins/smiley.png"
+      }]
+    }
+  ]
+}
